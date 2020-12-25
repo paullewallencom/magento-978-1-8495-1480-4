@@ -1,0 +1,38 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category    design
+ * @package     default_m2
+ */
+?>
+<?php
+/**
+ * @see Mage_Page_Block_Html_Notices
+ */
+?>
+<?php if ($this->displayNoscriptNotice()): ?>
+ <noscript>
+   <div class="noscript">
+    <div class="noscript-inner">
+    <p><strong><?php echo $this->__('Hi! JavaScript seem to be disabled in your browser.'); ?></strong></p>
+    <p><?php echo $this->__('Hi there! Welcome to the M2 Store.'); ?></p>
+    <p><?php echo $this->__('You will need to enable JavaScript in your browser to use our store. If you are really stuck, you can call us on 555 6849626 and we will do our best to help'); ?></p>
+   </div>
+  </div>
+ </noscript>
+ <?php endif; ?>
+
+<?php if ($this->displayDemoNotice()): ?>
+    <p class="demo-notice"><?php echo $this->__('This is a demo store. Any orders placed through this store will not be honored or fulfilled.') ?></p>
+<?php endif; ?>

@@ -1,0 +1,83 @@
+/* 
+ *
+ * Custom style for M2 Magento theme
+ * 
+ * From Magento 1.4 Themes Design book by Richard Carter
+ * 
+ */
+
+body {
+background: #f7f6f4
+}
+
+.header-container {
+background: none;
+border-width: 0
+}
+
+.header {
+background: #f76300	
+}
+
+a.logo:hover img {
+opacity: 0.6
+}
+
+.quick-access .links a {
+color: #803300;
+font-weight: bold
+}
+	.quick-access .links a:hover {
+	color: #FFF	
+	}
+	.quick-access .links li {background: none}
+	
+#search_mini_form {
+
+}
+#search_mini_form .form-search {
+background: transparent;
+padding-top: 10px	
+}
+	#search_mini_form .button {
+	background: #803300;
+	border-radius: 5px;
+	color: #FFF;
+	padding: 5px
+	}
+	
+.main-container,
+.main {
+background: transparent	
+}
+
+/* Sidebars */
+.sidebar .block {
+border-color: #b3b3b3;
+border-style: dotted;
+border-width: 0 0 2px 0;
+padding-bottom: 5px
+}
+
+	.sidebar .block-title {
+	background: none;
+	border-bottom: none
+	}
+		.sidebar .block-title h3 {
+		color: #f76300;
+		font-size: 125%
+		}	
+.sidebar .block-cart .block-content {
+background: transparent url("../images/sidebar_cart_bg.png") no-repeat right center;
+padding-right: 50px
+}
+
+/* Footer */
+.footer-container {
+background: transparent;
+border-width: 0
+}
+.footer {
+background: #803300;
+padding: 10px	
+}

@@ -1,0 +1,12 @@
+/**
+ * Custom IE6 style for M2 Magento theme
+ * 
+ * From Magento 1.4 Themes Design book by Richard Carter
+ * 
+ */
+
+
+/* Chapter 7 - sidebar: replace cart icon PNG with GIF */
+.sidebar .block-cart .block-content {
+background-image: url("../images/sidebar_cart_bg-ie.gif");
+}

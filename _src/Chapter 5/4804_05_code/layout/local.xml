@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addCss"><stylesheet>css/local.css</stylesheet></action> <!-- include the file /skin/frontend/default/m2/css/local.css in <head> -->
+        </reference>
+        
+ 		<remove name="left.permanent.callout"/> <!-- remove the left callout -->
+        <remove name="right.permanent.callout"/> <!-- remove the left callout -->
+        
+        <remove name="paypal.partner.right.logo"/> <!-- remove the PayPal logo -->
+        
+        <remove name="right.poll"/> <!-- remove the poll -->
+        <remove name="left.poll"/> <!-- remove the poll -->
+        
+    </default>
+</layout>

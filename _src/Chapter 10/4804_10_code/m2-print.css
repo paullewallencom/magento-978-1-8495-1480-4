@@ -1,0 +1,77 @@
+/* 
+ *
+ * Custom print style for M2 Magento theme
+ * 
+ * From Magento 1.4 Themes Design book by Richard Carter
+ * 
+ */
+ 
+/* Chapter 10 */
+
+.col-right,
+.col-left,
+.no-rating,
+.add-to-box,
+iframe, /* Hide Facebook 'Like' button */
+.box-tags {
+display: none !important
+}
+.col-main {
+float: none;
+width: 100%
+}
+
+/* Add a logo */
+.main {
+background: #FFF url("../images/logo_print.gif") no-repeat center left;
+padding-top: 175px
+}
+
+/* Typography */
+
+body {
+font-family: "times", "times new roman", "georgia", serif;
+font-size: 13pt;
+line-height: 1.35em
+}
+	.product-name h1 {
+	font-family: "times", "times new roman", "georgia", serif !important;
+	}
+
+h1,h2,h3,h4,h5,h6 {
+font-family: "baskerville old face", "georgia", serif
+}
+h1 {
+border-bottom: 1px #666 solid;
+font-size: 36pt	
+}
+h2 {
+font-size: 32pt	
+}
+h3 {
+font-size: 24pt	
+}
+h4 {
+font-size: 20pt	
+}
+h5 {
+color: #333;
+font-size: 16pt	
+}
+h6 {
+color: #666;
+font-size: 12pt	
+}
+
+/* Links */
+a, a:active, a:link, a:visited {
+color: #09C !important;
+font-weight: bold !important;
+text-decoration: underline !important;
+}
+a:link:after, a:visited:after {
+content: " [" attr(href) "] "
+}
+a[href^="/"]:after {
+content: " [http://www.example.com" attr(href) "] "
+}
